@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Método de envío de datos -->
+    <form action="" method="post">
+        <fieldset>
+            <legend>Detalles de la foto</legend>
+            <table>
+                Titulo <br />
+                <input type="text" size="40"> <br><br>
+
+                Descripción <br>
+                <textarea name="descripcion" id="" cols="80" rows="7"></textarea>
+                <br><br>
+
+                <!--Aqui se divide en una fila y dos columnas-->
+                <tr>
+                    <!--Columna o casilla 1-->
+                    <td width="350">
+                        <br>
+                        Continente <br>
+                        <select name="escogercontinente">
+                            <option value="escogercontinente">Escoger continente</option>
+                            <option value="africa">Africa</option>
+                            <option value="asia">Asia</option>
+                            <option value="europa">Europa</option>
+                            <option value="norteamerica">Norte America</option>
+                            <option value="suramerica">Sur America</option>
+                        </select>
+                        <br>
+                        <br>
+
+                        País <br>
+                        <select name="Pais">
+                            <option value="pais">País</option>
+                            <option value="canada">Canada</option>
+                            <option value="mexico">Mexico</option>
+                            <option value="estadosunidos">Estados Unidos</option>
+                        </select>
+                        <br>
+                        <br>
+
+                        Ciudad <br>
+                        <input list="ciudad" id="Ciudad" name="Ciudad">
+                        <datalist id="ciudad">
+                            <option value="Calgary"></option>
+                            <option value="Montreal"></option>
+                            <option value="Toronto"></option>
+                            <option value="Vancouver"></option>
+                            <option value="Tlaxcala"></option>
+                        </datalist>
+                        <br>
+
+                        Acepto la licencia de software<input type="checkbox" name="aceptar">
+                        <br><br>
+
+                        Califica esta foto: <input type="number" size="8">
+                        <br><br>
+
+                        Colección de color: <input type="color">
+                        <br><br>
+
+                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Limpiar">
+                    </td>
+
+                    <!--Columna o casilla 2-->
+                    <td>
+                        Copyright? <br>
+                        <input type="radio" name="todoslosderechos" id="todoslosderechos"> Todos los derechos
+                        reservados<br>
+                        <input type="radio" name="creativecommons" id="creativecommons"> Creative Commons<br><br>
+
+                        Licencias Creative Commons <br>
+                        <input type="checkbox" name="atribucion" value="atribucion"> Atribución<br>
+                        <input type="checkbox" name="nocomercial" value="nocomercial"> No comercial<br>
+                        <input type="checkbox" name="nohaytrabajos" value="nohaytrabajos"> No hay trabajos
+                        derivativos<br>
+                        <input type="checkbox" name="compartirigual" value="compartirigual"> Compartir por igual
+                        <br><br>
+
+                        Fecha de toma: <input type="date"> <br><br>
+
+                        Hora de toma: <input type="time"> <br />
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
