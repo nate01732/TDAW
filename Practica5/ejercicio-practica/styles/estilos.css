@@ -1,0 +1,134 @@
+/* seleccionar un tipo de fuente default para los elementos de texto */
+h1, h2, h3, h4, nav, footer{
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+/*  Aplicar un tipo de fuente, tamaño y color al cuerpo del documento en general */
+body {
+    font-family: Georgia, Cambria, Cochin, Georgia, 'Times New Roman', serif;
+    font-size: 100%;
+    background-color: rgb(33, 54, 66);
+}
+
+/* Cambiar el color de fondo de la sección principal y el tamaño de los margenes */
+main {
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    padding: 0.5em;
+}
+
+/* Cambiar los tamaños de fuente de los encabezados h1,h2 y h3 */
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 0.75rem;
+}
+h3{
+    font-size: 1em;
+    border-bottom: solid 1pt rgb(153, 153, 153);
+    margin: 0 0 0.5em 0;
+}
+
+/* Modificar el tamaño de fuente de los párrafos, espacio de margenes y espaciado de letra */
+p{
+    font-size: 1rem;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    letter-spacing: 1px;
+}
+
+/* Modificar el tamaño de fuente de la barra de navegación, el color de fondo y relleno de los elementos */
+nav{
+    font-size: 1.125rem;
+    background-color: rgb(61, 98, 113);
+    padding: 0,25em;
+}
+
+/* Cambiar el estilo de los elementos de una lista, cambiar la forma en que los elementos son desplegados */
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+/* Cambiar el relleno en los enlaces de la barra de navegacion */
+nav a{
+    padding: 0.25em;
+}
+
+/* Modificar la pseudoclase link, visited y hover de los enlaces */
+a:link{
+    font-weight: bold;
+    color: rgb(71, 179, 215);
+}
+/* Pseudoclase visited */
+a:visited{
+    color: rgb(187, 120, 255);
+}
+/* Pseudoclase hover */
+a:hover{
+    background-color: rgb(255, 255, 204);
+}
+
+/* Crear clase titulo */
+.titulo{
+    font-size: 0.875rem;
+    color: #728B96;
+    font-style: italic;
+}
+
+/* Modifcar margenes de las figuras */
+figure{
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+/* Cambiar relleno y color de borde de las imagenes */
+figure img{
+    padding: 0.25em;
+    border: solid 1.5px #999999;
+}
+
+/*  */
+figure div{
+    margin: 0.25em 0em 2em 0em;
+    padding: 0.5em;
+    width: 500px;
+    border: solid 1.5px #999999;
+    border-radius: 4px;
+    background: linear-gradient(black, gray, white);
+}
+
+/*  */
+figure div p{
+    font-size: 70%;
+    margin: 0;
+}
+
+/*  */
+figure div img{
+    padding: 0;
+    border: 0;
+}
+
+/*  */
+#revisiones{
+    margin-top: 1em;
+}
+
+/*  */
+#revisiones div{
+    border-bottom: dashed 1pt #999999;
+    margin-top: 1.25em;
+}
+
+/*  */
+header, footer{
+    color: white;
+    background-color: #3D6271;
+    margin: 0em 4em 0.5em 4em;
+}
