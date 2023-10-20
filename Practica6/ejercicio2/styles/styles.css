@@ -1,0 +1,80 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url('/ejercicio2/images/art-background4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    font-size: 1.25em;
+    width: 12em;
+    padding-left: 0.75em;
+    padding-bottom: 1em;
+    padding-right: 2rem;
+    position: fixed;
+    top: 0em;
+    left: 5em;
+}
+
+header h1{
+    font-family: 'Six Caps', sans-serif;
+}
+
+header h2 {
+    font-size: .65em;
+    position: fixed;
+    top: 5.5em;
+}
+
+article{
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba( 234, 237, 237, .50);
+    width: 25em;
+    position: relative;
+    top: 15em;
+    left: 6.2em;
+}
+
+
+article h2{
+    background-color: rgba(229, 232, 232, 0.8);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    font-weight: bold;
+
+}
+
+article p{
+    font-family: 'Playfair Display', serif;
+    padding-left: 1em;
+
+}
+
+article p:nth-child(3){
+    background-color: rgba( 66, 73, 73 ,.8);
+    color: white;
+    padding: 1em;
+    width: 15em;
+    margin-left: 1em;
+}
+
+footer{
+    background-color: rgba( 240, 243, 244 , 1);
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+footer a{
+    text-decoration: none;
+    border-bottom: dotted;
+}
