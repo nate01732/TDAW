@@ -40,7 +40,9 @@ function calcularPromedio() {
   console.log("De que estudiante quieres calcular el promedio?");
   const numeroEstudiante = parseInt(prompt("Ingresa el numero de estudiante")) - 1;
   
+  const estudiante = estudiantes[numeroEstudiante];
   const calificaciones = estudiante.get('calificaciones');
+  let sumaCalificaciones = 0;
   
   for (let i = 0; i < calificaciones.length; i++) {
         sumaCalificaciones += calificaciones[i];
@@ -49,8 +51,7 @@ function calcularPromedio() {
   const promedio = sumaCalificaciones / calificaciones.length;
   
   console.log('El promedio de este estudiante es:', promedio);
-  
-  
+    
 }
 
 function menuPrincipal() {
@@ -84,3 +85,4 @@ function menuPrincipal() {
 
 //Llamar a la funcion principal
 menuPrincipal();
+}
