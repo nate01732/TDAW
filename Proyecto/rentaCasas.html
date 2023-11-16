@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Renta de casas</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesSecction.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/stylecasasdeptos.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" id="firstNav">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+
+                    </li>
+                    <li class="nav-item">
+                        <span class="material-symbols-outlined">
+                            person_add
+                        </span>
+                        <a href="registro.html">Registrate</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                        <a href="iniciosesion.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                        <select id="idioma">
+                            <option value="es">Español</option>
+                            <option value="en">Inglés</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="secondaryNav">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <form action="Busqueda" method="get"
+                            class="form-inline my-2 my-lg-0 d-flex align-items-center justify-content-center mx-auto">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                <span class="material-symbols-outlined">
+                                    search
+                                </span>
+                            </button>
+                        </form>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <a href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <span class="material-symbols-outlined">
+                            apartment
+                        </span>
+                        <a href="rentaDptos.html">Departamentos</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="font-weight-bold">Casas para estudiantes</h1>
+
+    <section id="casas-ejemplos">
+
+        <h3 class="font-weight-bold">Local</h3>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/UVM1.jpg" class="card-img-top enlarge-on-hover"  alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Santuario de las luciernagas</h5>
+                <p class="card-text">Un lugar cómodo para que el estudiante pueda ponerse en contacto con 
+                    la naturaleza.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Nanacamilpa, Tlaxcala</li>
+                <li class="list-group-item">Capacidad: 3 personas</li>
+                <li class="list-group-item">Precio: $4000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="casainfo.html" class="card-link">Más información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/Alojamiento_Tlaxcala.webp" class="card-img-top enlarge-on-hover"  alt="..." width="450"
+                height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Tlaxcala Centro</h5>
+                <p class="card-text">Casa económica ideal para estudiantes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Tlaxcala Centro</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $2000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/casa_Tlax2.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="150" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa ideal para estudiantes</h5>
+                <p class="card-text">Casa de piedra para mayor concentración y comodiada para el estudiante.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Tizatlán, Tlaxcala</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $3000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/casa_Tlax3.jpg" class="card-img-top enlarge-on-hover"  alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Casa Tlaxcala minimalista</h5>
+                <p class="card-text">Casa de buen tamaño ideal para estudiantes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Ocotlán, Tlaxcala</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $2500</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/casa_Tlax4.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="450" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Tlaxcala tradicional</h5>
+                <p class="card-text">Casa con gran comodidad envuelto en un ambiente pacifico.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Chiautempan, Tlaxcala</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $1800 </li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/casa_tlax5.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Tlaxcala verde</h5>
+                <p class="card-text">Casa con todos los servicios, todo lo que necesita un estudiante.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Tepehitec, Tlaxcala</li>
+                <li class="list-group-item">Capacidad: 6 personas</li>
+                <li class="list-group-item">Precio: $3800</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="departamentos-ejemplos">
+
+        <h3 class="font-weight-bold">Nacional</h3>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/UVM1.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Acapulco</h5>
+                <p class="card-text">Casa en Acapulco con gran espacio, ideal para estudiantes.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Acapulco, Guerrero</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $6000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/Casa_Wayak.webp" class="card-img-top enlarge-on-hover"  alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Atlixco, Puebla</h5>
+                <p class="card-text">Casa ideal para estruaintes foráneos.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Atlixco, Puebla</li>
+                <li class="list-group-item">Capacidad: 3 personas</li>
+                <li class="list-group-item">Precio: $2000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/casa_Tepoztlan_CDMX.webp" class="card-img-top enlarge-on-hover"  alt="..." width="250"
+                height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa Tepoztlán, CDMX</h5>
+                <p class="card-text">. Hermosa casa con patio y jardin al aire libre</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Tepoztlán, CDMX</li>
+                <li class="list-group-item">Capacidad: 4 personas</li>
+                <li class="list-group-item">Precio: $ 5000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/estcasa1.jpg" class="card-img-top enlarge-on-hover" alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa estudiantil en Sonora</h5>
+                <p class="card-text">Casa con todos los servicios en Sonora.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Hermosillo, Sonora</li>
+                <li class="list-group-item">Capacidad: 5 personas</li>
+                <li class="list-group-item">Precio: $ 3500 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Link:</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/estcasa2.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa estudiantil Veracruz</h5>
+                <p class="card-text">.Casa azul para estudiantes foráneos</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Xalapa, Veracruz</li>
+                <li class="list-group-item">Capacidad: 7 personas</li>
+                <li class="list-group-item">Precio: $6000</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Imagenes/est_casa3.jpg" class="card-img-top enlarge-on-hover"  alt="..." width="250" height="200">
+            <div class="card-body">
+                <h5 class="card-title">Casa estudiantil Cancún</h5>
+                <p class="card-text">Casa para estudiantes en Cancún.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ubicación: Cancúnn, Quintana Roo</li>
+                <li class="list-group-item">Capacidad: 5 personas</li>
+                <li class="list-group-item">Precio: $8000 mensualidad</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Mas información</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <section class="box">
+            <h2> Links </h2>
+            <ul class="links">
+                <li>
+                    <a href="#"> Inicio </a>
+                </li>
+                <li>
+                    <a href="#"> Casas </a>
+                </li>
+                <li>
+                    <a href="#"> Departamentos </a>
+                </li>
+                <li>
+                    <a href="#"> Centro de ayuda</a>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="box">
+            <h2> Recibir Notificaciones </h2>
+            <form action="" class="registration">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu correo">
+                <button type="submit"> Recibir notificaciones </button>
+            </form>
+        </section>
+
+        <section class="box">
+            <h2> Contact </h2>
+            <p class="address"> Av. Gullermo del Valle <br>
+                UPIIT, Tlaxcala
+            </p>
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                        <img src="/images/social_media/facebook.png" alt="Descripción de la imagen" width="30em">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/?lang=es" target="_blank">
+                        <img src="/images/social_media/twitter.png" alt="X" width="30em">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="/images/social_media/instagram.png" alt="Instagram" width="30em">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="/images/social_media/whatsapp.png" alt="whatsapp" width="30em">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>

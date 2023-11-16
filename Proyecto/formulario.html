@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <h1>Formulario de Compras</h1>
+    <style> 
+        .visa {
+            width: 250px;
+            height: 150px;
+        }
+    </style>
+    
+<body>
+    <form method="GET" action="">
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" maxlength="50" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" maxlength="50" required><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" maxlength="50" required><br><br>
+
+        <label for="tarjeta">Número de Tarjeta:</label>
+        <input type="text" id="tarjeta" name="tarjeta" required><br><br>
+
+        <label for="tipo-pago">Tipo de Pago:</label><br>
+        <input type="image" src="images/visa.png" alt="Visa" id="visa" name="tipo-pago" value="Visa" width="30">
+        <input type="image" src="images/mastercard.png" alt="MasterCard" id="mastercard" name="tipo-pago" value="MasterCard" width="50"><br><br>
+
+        <label for="vencimiento">Fecha de Vencimiento:</label>
+        <input type="text" id="vencimiento" name="vencimiento" maxlength="5" placeholder="MM/YY" required><br><br>
+
+        <label for="csc">CSC:</label>
+        <input type="text" id="csc" name="csc" required><br><br>
+
+        <label for="direccion">Línea de Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="codigo-postal">Código Postal:</label>
+        <input type="text" id="codigo-postal" name="codigo-postal" required><br><br>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
