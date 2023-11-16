@@ -1,0 +1,190 @@
+* {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+/* Estilos header*/
+/* estilos del nav*/
+header{
+    width: 100%;
+}
+
+.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: rgb(255, 243, 224);
+}
+
+
+#firstNav .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#firstNav .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+#firstNav .material-symbols-outlined {
+    margin-right: 8px; 
+}
+
+#idioma{
+    background-color: white;
+}
+
+/* Estilos para el formulario de registro*/
+.form-label{
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(191, 201, 202) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    width: 70%; 
+    padding: 20px; 
+    background-color: white; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+main h3{
+    font-weight: bold;
+}
+
+#registro-user {
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.form-check-input{
+    box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pass{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.botones{
+    width: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+    margin-right: 1rem;
+}
+
+.btn-secondary{
+    margin-right: 1rem;
+}
+
+/* Estilos footer*/
+.footer {
+    width: 100%;
+    display: flex;
+    color: black;
+    padding: 2rem 0;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb( 255, 204, 128 );
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.links li {
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration input {
+    padding: 10px;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    margin: 1rem 0;
+}
+
+button {
+    border: none;
+    padding: 12px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social li {
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#formulario-contacto{
+    margin-top: 0;
+    color: black;
+}
+
+input.form-control:hover {
+    background-color: rgb( 227, 242, 253);
+    border-color: rgba( 227, 242, 253);
+}

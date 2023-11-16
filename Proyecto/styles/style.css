@@ -1,0 +1,224 @@
+* {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+/* Estilos para header*/
+.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+.navbar{
+    background-color: rgb(255, 243, 224);
+}
+
+
+#firstNav .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#firstNav .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+#firstNav .material-symbols-outlined {
+    margin-right: 8px; 
+}
+
+#idioma{
+    background-color: white;
+}
+
+/* Estilos para el nav secundario*/
+#secondaryNav {
+    position: sticky;
+    top: 1rem;
+    width: 100%;
+    border: 1px solid wheat; 
+    padding: 10px;
+        
+}
+
+/* para ajustar el tamaño, en este caso la altura del boton*/
+#secondaryNav .btn {
+    height: 2.25rem;
+    width: 3rem;
+    margin-left: 1px;
+}
+
+#secondaryNav .navbar-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item-search {
+    margin-left: auto;
+}
+
+#secondaryNav .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+#secondaryNav .material-symbols-outlined {
+    margin-right: 8px; 
+}
+
+/* Estilos para el main*/
+/* Estilos para departamentos*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#departamentos-ejemplos,
+#casas-ejemplos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+
+#departamentos-ejemplos h3,
+#casas-ejemplos h3 {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para card, transision*/
+.card {
+    width: 20rem;
+    margin-top: 3rem;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    font-weight: bold;
+    transform: scale(1.08);
+}
+
+.contenedor-cards{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Estilos para el boton "ver mas"*/
+#departamentos-ejemplos button,
+#casas-ejemplos button {
+    width: 100%;
+    max-width: 10rem;
+    margin-top: 0.25rem;
+    background-color: rgb(235, 245, 251);
+}
+
+#departamentos-ejemplos button:hover,
+#casas-ejemplos button:hover {
+    font-weight: bold;
+    background-color: rgb( 159, 168, 218 );
+    color: black;
+}
+
+
+/* Estilos del footer*/
+.footer {
+    display: flex;
+    color: #fffefe;
+    padding: 2rem 0;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb( 121, 134, 203 );
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.links li {
+    list-style: none;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration input {
+    padding: 10px;
+    font-weight: 100;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    margin: 1rem 0;
+}
+
+button {
+    border: none;
+    padding: 12px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.address {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social li {
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#formulario-contacto{
+    margin-top: 0;
+    color: white;
+}
