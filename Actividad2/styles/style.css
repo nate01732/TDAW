@@ -1,0 +1,70 @@
+/* Estilos para el contenedor de los botones */
+* {
+    font-family: montserrat;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    min-height: 100vh;
+    background-color: rgb(249, 251, 231);
+}
+
+#puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cambiado a fr para ajustar el ancho automáticamente */
+    gap: 0;
+    width: 440px; /* Ajustado el ancho para centrar los botones */
+    height: 440px; /* Ajustado el alto para centrar los botones */
+    background-color: rgb(255, 183, 77);
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    border: 1px solid rgb(255, 183, 77);
+    border-radius: 5px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#jugar {
+    background-color: whitesmoke;
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#jugar:hover{
+    background-color: rgb(174, 213, 129);
+}
+
+button:hover {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+#marcador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
